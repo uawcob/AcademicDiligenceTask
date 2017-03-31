@@ -1,0 +1,6 @@
+Please select a game
+Tetris	tetris.swf	Use the arrow keys to navigate. Right key = move right; Left key = move left; Up key = rotate; Down key = quick drop	-1
+Minesweeper	minesweeper.swf	Use the mouse to select a square.	-1
+Tic-Tac-Toe	TIC-TAC-TOE.swf	Use the mouse to select a square.	-1
+Asteroids	asteroids2.swf	Use the arrow keys to navigate. Up key = accelerate forward; Right key = rotate right; Left key = rotate left; Use the space bar to shoot.	-1
+Tilt-Maze	tilt-maze.swf	Use the arrow Keys (up, down, left, right)to navigate the red ball around the maze to the blue square.	-1

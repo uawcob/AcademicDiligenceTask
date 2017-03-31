@@ -1,0 +1,44 @@
+Item	Type	Content	ExtraInfo
+Intro0	Content	NEWLINEPlease read all instructions carefully and completely. Do not press the "back" button on your internet browser at any point during the activity.	
+Intro1	Content	We want to tell you about some interesting new scientific research on students your age. On the next couple of pages you will read about real research findings.	-1
+CoverStoryC1	Image	DT_CoverStory1_boy.jpg	-1
+ManipCheck01	Question	What happened to students who practiced more math problems?:The students got higher grades:The students got lower grades:the students' grades stayed the same	-1
+CoverStoryC1	Image	DT_CoverStory2.jpg	-1
+ManipCheck02	Question	What happened to students who practiced more math problems?:Practicing simple math problems can make my brain grow bigger:Practicing simple math problems can make me a better problem solver:Practicing simple math problems will improve my self-control	-1
+Instruct1	Content	First we are going to do some math problems for 30 seconds. Try to solve as many problems as quickly and accurately as you can. To choose an answer, click on the bubble next to the answer you would like to select.NEWLINEPlease click on the "Do Work" icon on the next page to begin.	-1
+Boring00	BoringTask	distractors_file=Distractors.txt;timeout_secs=30;timeout_warn_secs=15;add_sub=addmult;math_only=true;media_only=false;	-1
+Slider00	Sliders	SlidersBEFI_MathPRE.txt	-1
+Instruct2	Content	Good job! You have completed the practice and are ready to move onto the main activity.	
+Instruct3	Content	What am I going to be doing? NEWLINEIn the next section you will solve math problems just like the practice. Treat the problems as if they were an exam. Try to solve as many problems as quickly and accurately as possible.	-1
+Instruct4	Content	What else can you do during this activity?NEWLINEWhenever you feel like it, you can take a break by clicking "play games" on the right side of the screen to play games.	-1
+ManipCheck03	Question	Why are you going to do the math problems?:The researcher told me to:Practicing simple math can improve my problem solving skills:I do not know	-1
+Instruct5	Content	You are about to begin the activity! Remember, you will be able to play games whenever you feel like it, but the more problems you do, the better you will become at problem solving. To play games, click "play games" on the right side of the screen. To switch back to math, click "do work" on the left side of the screen. NEWLINEAt the end of the task, we will tell you how many problems you got correct.NEWLINEClick "next" when you are ready to start.	-1
+Boring01	BoringTask	distractors_file=Distractors.txt;timeout_secs=150;timeout_warn_secs=135;add_sub=addmult;math_only=false;media_only=false;work_btn_label=do work;media_btn_label=play games	-1
+Slider01	Sliders	SlidersBEFI_Math.txt	-1
+Instruct6	Content	You are done with this section of the activity. Click "Next" to continue to the next section.	-1
+Instruct7	Content	Good Job! NEWLINEIn the next section you will solve more math problems. Try to solve as many problems as quickly and accurately as possible.	-1
+Boring02	BoringTask	distractors_file=Distractors.txt;timeout_secs=150;timeout_warn_secs=135;add_sub=addmult;math_only=false;media_only=false;work_btn_label=do work;media_btn_label=play games	-1
+Slider02	Sliders	SlidersBEFI_Math.txt	-1
+Instruct8	Content	You are done with this section of the activity. Click next to continue to the next section.	-1
+Instruct9	Content	Good Job! NEWLINEIn the next section you will solve more math problems. Try to solve as many problems as quickly and accurately as possible.	-1
+Boring03	BoringTask	distractors_file=Distractors.txt;timeout_secs=150;timeout_warn_secs=135;add_sub=addmult;math_only=false;media_only=false;work_btn_label=do work;media_btn_label=play games	-1
+Slider03	Sliders	SlidersBEFI_MathPost.txt	-1
+Instruct10	Content	You are done with this section of the activity. Click next to see how many problems you got correct.	-1
+#Boring04	BoringTask	distractors_file=Distractors.txt;timeout_secs=150;timeout_warn_secs=135;add_sub=addmult;math_only=false;media_only=false;work_btn_label=do work;media_btn_label=play games	-1
+#Slider04	Sliders	SlidersBEFI_Math.txt	-1
+#Instruct11	Content	You are done with this section of the activity. Click "Next" to continue to the next section.	-1
+#Instruct12	Content	Good Job! NEWLINEIn the next section you will solve more math problems. Try to solve as many problems as quickly and accurately as possible.	-1
+#Boring05	BoringTask	distractors_file=Distractors.txt;timeout_secs=150;timeout_warn_secs=135;add_sub=addmult;math_only=false;media_only=false;work_btn_label=do work;media_btn_label=play games	-1
+#Slider05	Sliders	SlidersBEFI_Math.txt	-1
+#Instruct13	Content	You are done with this section of the activity. Click "Next" to continue to the next section.	-1
+#Instruct14	Content	Good Job! NEWLINEIn the next section you will solve more math problems. Try to solve as many problems as quickly and accurately as possible.	-1
+#Boring06	BoringTask	distractors_file=Distractors.txt;timeout_secs=150;timeout_warn_secs=135;add_sub=addmult;math_only=false;media_only=false;work_btn_label=do work;media_btn_label=play games	-1
+#Slider06	Sliders	SlidersBEFI_Math.txt	-1
+#Instruct15	Content	You are done with this section of the activity. Click "Next" to continue to the next section.	-1
+#Instruct16	Content	Good Job! NEWLINEIn the next section you will solve more math problems. Try to solve as many problems as quickly and accurately as possible.	-1
+#Boring07	BoringTask	distractors_file=Distractors.txt;timeout_secs=150;timeout_warn_secs=135;add_sub=addmult;math_only=false;media_only=false;work_btn_label=do work;media_btn_label=play games	-1
+#Slider07	Sliders	SlidersBEFI_Math.txt	-1
+#Instruct17	Content	You are done with this section of the activity. Click next to see how many problems you got correct.
+Feedback	ReminderFrame	You attempted [math_nattempts] math problems and got [math_ncorrect] of them correct.	-1
+VideoCheck	Question	Did the games work during the activity?:Yes they did:No they did not:I did not play any games	-1
+FinalSlide	Image	FinalSlide.gif

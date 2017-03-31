@@ -1,0 +1,3 @@
+ItemID	ItemLabel	MinVal	MaxVal	MinLabel	MaxLabel
+Now use the sliders below to indicate how you feel. One by one, make sure you click and drag each slider.
+Bored	How bored were you by the math during the last session?	1	5	not at all bored	very bored

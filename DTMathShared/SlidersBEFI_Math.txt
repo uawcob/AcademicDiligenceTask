@@ -1,0 +1,3 @@
+ItemID	ItemLabel	MinVal	MaxVal	MinLabel	MaxLabel
+We would like to know how you feel about the math problems in the last session. Make sure you click and drag the slider.
+Bored	How bored were you by the math during the last session?	1	5	not at all bored	very bored
