@@ -1,0 +1,31 @@
+version: '2.1'
+
+services:
+    nginx:
+        image: nginx:alpine
+        networks:
+            adtmsnet:
+                ipv4_address: ${ADTMS_NGINX_IP:-172.16.20.10}
+        volumes:
+            - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+            - ./DTMathShared:/usr/share/nginx/html:ro
+
+    php:
+        image: php:fpm-alpine
+        networks:
+            - adtmsnet
+        volumes:
+            - ./php-fpm/error.conf:/usr/local/etc/php-fpm.d/error.conf:ro
+            - ./DTMathShared:/scripts:ro
+            - ./DTMathShared/logs:/scripts/logs
+
+networks:
+    adtmsnet:
+        driver: "bridge"
+        driver_opts:
+            com.docker.network.enable_ipv6: "false"
+        ipam:
+            driver: default
+            config:
+                - subnet: ${ADTMS_SUBNET:-172.16.20.0/24}
+                  gateway: ${ADTMS_GATEWAY:-172.16.20.1}
